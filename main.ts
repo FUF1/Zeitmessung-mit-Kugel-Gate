@@ -1,4 +1,3 @@
-// Reset-Funktion
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     basic.clearScreen()
     start = 0
@@ -20,5 +19,10 @@ basic.forever(function () {
         basic.showNumber(zeit)
         start = 0
         ende = 0
+        basic.pause(200)
+        servos.P2.setAngle(0)
+        basic.pause(1500)
+        servos.P2.setAngle(180)
+        servos.P2.setStopOnNeutral(false)
     }
 })
