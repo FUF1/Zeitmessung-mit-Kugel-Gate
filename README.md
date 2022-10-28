@@ -1,5 +1,5 @@
 
-> Diese Seite bei [https://fuf1.github.io/zeitmessung_making-workshop/](https://fuf1.github.io/zeitmessung_making-workshop/) öffnen
+> Diese Seite bei [https://fuf1.github.io/Zeitmessung_Making-Workshop/](https://fuf1.github.io/Zeitmessung_Making-Workshop/) öffnen
 
 ## Als Erweiterung verwenden
 
