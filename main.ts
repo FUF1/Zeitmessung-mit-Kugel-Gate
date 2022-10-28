@@ -8,6 +8,7 @@ let ende = 0
 let start = 0
 start = 0
 ende = 0
+servos.P2.setAngle(0)
 basic.forever(function () {
     while (input.pinIsPressed(TouchPin.P0)) {
         start = input.runningTime()
