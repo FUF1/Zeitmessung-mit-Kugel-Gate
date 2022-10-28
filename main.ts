@@ -15,7 +15,7 @@ basic.forever(function () {
     }
     while (input.pinIsPressed(TouchPin.P1)) {
         ende = input.runningTime()
-        music.playTone(262, music.beat(BeatFraction.Whole))
+        music.playTone(698, music.beat(BeatFraction.Whole))
         basic.pause(100)
         zeit = (ende - start) / 1000
         basic.showNumber(zeit)
@@ -25,6 +25,5 @@ basic.forever(function () {
         servos.P2.setAngle(0)
         basic.pause(1500)
         servos.P2.setAngle(180)
-        servos.P2.setStopOnNeutral(false)
     }
 })

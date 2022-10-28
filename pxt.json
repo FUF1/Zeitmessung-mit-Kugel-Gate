@@ -1,5 +1,5 @@
 {
-    "name": "Kugelgate_v1",
+    "name": "Zeitmessung mit Kugel-Gate",
     "description": "",
     "dependencies": {
         "core": "*",
