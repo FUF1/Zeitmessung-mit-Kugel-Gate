@@ -1,4 +1,4 @@
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     basic.clearScreen()
     start = 0
     ende = 0
