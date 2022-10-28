@@ -1,5 +1,5 @@
 
-> Diese Seite bei [https://fuf1.github.io/Zeitmessung_Making-Workshop/](https://fuf1.github.io/Zeitmessung_Making-Workshop/) öffnen
+> Diese Seite bei [https://fuf1.github.io/Zeitmessung-mit-Kugel-Gate/](https://fuf1.github.io/Zeitmessung-mit-Kugel-Gate/) öffnen
 
 ## Als Erweiterung verwenden
 
