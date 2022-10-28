@@ -9,6 +9,7 @@ let ende = 0
 let start = 0
 start = 0
 ende = 0
+basic.pause(100)
 servos.P2.setAngle(0)
 basic.forever(function () {
     while (input.pinIsPressed(TouchPin.P0)) {
@@ -24,8 +25,8 @@ basic.forever(function () {
         start = 0
         ende = 0
         basic.pause(200)
-        servos.P2.setAngle(0)
-        basic.pause(1500)
         servos.P2.setAngle(180)
+        basic.pause(1000)
+        servos.P2.setAngle(0)
     }
 })
