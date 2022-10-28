@@ -2,6 +2,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     basic.clearScreen()
     start = 0
     ende = 0
+    music.playMelody("E G E A - - - - ", 300)
 })
 let zeit = 0
 let ende = 0
