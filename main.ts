@@ -26,7 +26,7 @@ basic.forever(function () {
         ende = 0
         basic.pause(200)
         servos.P2.setAngle(180)
-        basic.pause(1000)
+        basic.pause(2000)
         servos.P2.setAngle(0)
     }
 })
